@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+h2{
+    margin: 20px;
+    text-align: center;
+}
+
+p{
+    margin: 30px;
+}
+
+#abaFixa{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    padding-left: 150px;
+    position: fixed;
+    background-color: #4711c1;
+    min-height: 50px;
+    width: 100%;
+}
+
+#pFixo{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.buttonFixo{
+    border-radius: 15px;
+    min-height: 30px;
+    max-height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    color: #4711c1;
+    padding: 8px;
+}
+
+#imgCapa{
+    width: 100%;
+}
+
+.container{
+    margin: 30px;
+    width: 150vh;
+}
+
+#imgWarnerDiv{
+    width: 100%;
+}
+
+#imgWarner{
+    width: 100%;
+}
+
+#hScrollContainer{
+    display: flex;
+    column-gap: 20px;
+    max-width: 180vh;
+    max-height: 50vh;
+    overflow-x: scroll;
+}
+
+.scrollImg{
+    min-width: 50vh;
+}
+
+#containerRodape{
+    background-color: #4711c1;
+    color: white;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
